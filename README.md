@@ -1,7 +1,7 @@
 # work-portfolio-and-sample-exhibition
-Image:
+Image: ![alt text](image.png)
 
-Link:
+Link: https://nicolehekim.github.io/nicolekim-work-portfolio-example/
 
 Purpose: GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
