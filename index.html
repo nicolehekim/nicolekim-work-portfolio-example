@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0"/>
     <title>Work Portfolio</title>
     <link rel="stylesheet" href="./assets/style.css" />
 </head>
@@ -11,18 +12,18 @@
 <body>
     <header>
         <h1>Nicole Kim</h1>
-        <img src="image link" alt="Picture of Nicole Kim" />
+        <img src="./assets/IMG_4792.jpg" alt="Picture of Nicole Kim" />
         <nav>
             <ul>
-              <li><a href="#">About Me</a></li>
-              <li><a href="#">Work</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Resume</a></li>
+              <li><a href="#aboutMe">About Me</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#exampleC">Resume</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="about_me">
+    <div class="about_me" id="aboutMe">
         <h2>About Me</h2>
         <p>
             I have always had great interest when it came to coding and software engineering.
@@ -32,28 +33,29 @@
     </div>
     
     <main>
-     <section>
-        <h3>Section 1</h3>
-        <img src="image link" alt="Picture of Nicole Kim" />
-     </section>
+        <h2 id="work">My Work</h2>
+        <section class="examples">
+            <h3>Section 1</h3>
+            <img src="./assets/IMG_4544.jpg" alt="Picture of Nicole Kim" />
+        </section>
 
-     <section>
-        <h3>Section 2</h3>
-        <img src="image link" alt="Picture of Nicole Kim" />
-     </section>
+        <section class="examples">
+            <h3>Section 2</h3>
+            <img src="./assets/IMG_4786.jpg" alt="Picture of Nicole Kim" />
+        </section>
 
-     <section>
-        <h3>Section 3</h3>
-        <img src="image link" alt="Picture of Nicole Kim" />
+        <section class="examples">
+            <h3>Section 3</h3>
+            <img src="./assets/IMG_4795.jpg" alt="Picture of Nicole Kim" />
         </section>
     </main>
 
     <footer>
-        <h3>Contact</h3>
+        <h3 id="contact">Contact</h3>
         <ul>
             <li><a href="mailto:nicolehekim@gmail.com">Email</a></li>
             <li><a href="https://github.com/nicolehekim">GitHub</a></li>
-            <li><a href="#">(800)123-1234</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">(800)123-1234</a></li>
         </ul>
     </footer>
 </body>
