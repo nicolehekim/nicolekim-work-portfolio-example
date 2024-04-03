@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Garamond, serif;
-    background-color: #8b0000;
+    background-color: #9c5858;
     color: var(--alwaysLight);
 }
 
@@ -87,6 +87,13 @@ main h2 {
     text-align: center;
     max-width: 45%;
     align-items: center;
+}
+
+#groupProject {
+    margin-top: 127px;
+    color: rgb(32, 71, 243);
+    text-decoration: underline;
+
 }
 
 .examples {
